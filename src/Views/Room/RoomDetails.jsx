@@ -114,7 +114,7 @@ function RoomDetails() {
                 {room.image ? (
                   <img
                     className="img-fluid rounded w-100"
-                    src={`http://localhost:3000/uploads/${room.image}`}
+                    src={`https://hotel-api-ywn8.onrender.com/uploads/${room.image}`}
                     alt={room.status}
                     style={{ height: "500px", objectFit: "cover" }}
                   />
@@ -252,7 +252,7 @@ function RoomDetails() {
                           className="img-fluid w-100"
                           src={
                             chambre.images?.[0]
-                              ? `http://localhost:3000/uploads/${chambre.images[0]}`
+                              ? `https://hotel-api-ywn8.onrender.com/uploads/${chambre.images[0]}`
                               : "img/room-1.jpg"
                           }
                           alt={chambre.nom}

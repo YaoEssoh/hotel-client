@@ -1,7 +1,7 @@
 // src/components/Contact.jsx  (remplace ton fichier actuel)
 import React, { useState } from 'react';
 
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:3000';
+const API_BASE = process.env.REACT_APP_API_BASE || 'https://hotel-api-ywn8.onrender.com';
 
 function getAuthHeaders() {
   // Si tu utilises un token JWT : décommente et adapte

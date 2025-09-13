@@ -231,7 +231,7 @@ function Hotel() {
                           {hotel.images && hotel.images.length > 0 ? (
                             <img
                               className="img-fluid"
-                              src={`http://localhost:3000/uploads/${hotel.images[0]}`}
+                              src={`https://hotel-api-ywn8.onrender.com/uploads/${hotel.images[0]}`}
                               alt={hotel.nom}
                               style={{
                               width: "100%",

@@ -232,7 +232,7 @@ function Room() {
                           className="img-fluid w-100"
                           src={
                             chambre.image
-                              ? `http://localhost:3000/uploads/${chambre.image}`
+                              ? `https://hotel-api-ywn8.onrender.com/uploads/${chambre.image}`
                               : "img/room-1.jpg"
                           }
                           alt={chambre.nom}
