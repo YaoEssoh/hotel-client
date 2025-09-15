@@ -259,7 +259,7 @@ console.log("hotel nbre", clientsRes.data.listeData.length);
                       <div>
                         <img
                           className="img-fluid"
-                          src={`https://hotel-api-ywn8.onrender.com/uploads/${hotel.images[0]}`}
+                          src={`http://localhost:3000/uploads/${hotel.images[0]}`}
                           alt={hotel.nom}
                             style={{
                               width: "100%",

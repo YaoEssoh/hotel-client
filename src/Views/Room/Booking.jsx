@@ -297,7 +297,7 @@ function Booking() {
                   <img
                     className="img-fluid rounded wow zoomIn"
                     data-wow-delay="0.3s"
-                    src={`https://hotel-api-ywn8.onrender.com/uploads/${room.image}`}
+                    src={`http://localhost:3000/uploads/${room.image}`}
                     alt="Room"
                     style={{ maxHeight: "400px", objectFit: "cover", margin: "0 auto", display: "block" }}
                   />

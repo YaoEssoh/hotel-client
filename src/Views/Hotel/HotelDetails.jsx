@@ -152,7 +152,7 @@ function HotelDetails() {
                   <>
                     <img
                       className="img-fluid rounded w-100 h-100"
-                      src={`https://hotel-api-ywn8.onrender.com/uploads/${hotel.images[currentImageIndex]}`}
+                      src={`http://localhost:3000/uploads/${hotel.images[currentImageIndex]}`}
                       alt={hotel.nom}
                       style={{ objectFit: "cover" }}
                     />
@@ -183,7 +183,7 @@ function HotelDetails() {
                   hotel.images.map((image, index) => (
                     <div className="col-3" key={index}>
                       <img
-                        src={`https://hotel-api-ywn8.onrender.com/uploads/${image}`}
+                        src={`http://localhost:3000/uploads/${image}`}
                         alt={`${hotel.nom} ${index + 1}`}
                         className={`img-fluid rounded cursor-pointer ${
                           currentImageIndex === index
@@ -337,7 +337,7 @@ function HotelDetails() {
                   <div className="position-relative">
                     <img className="img-" 
                     //src="img/room-1.jpg"
-                    src={`https://hotel-api-ywn8.onrender.com/uploads/${chambre.image}`}
+                    src={`http://localhost:3000/uploads/${chambre.image}`}
                     style={{
                               width: "100%",
                               height: "250px",
