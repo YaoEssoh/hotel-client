@@ -11,7 +11,7 @@ function Paiment() {
     const stripe = await stripePromise;
     try {
       const response = await fetch(
-        `https://hotel-api-ywn8.onrender.com/paiement/create-checkout-session/${id}`,
+        `http://localhost:3000/paiement/create-checkout-session/${id}`,
         {
           method: "POST",
           headers: {
